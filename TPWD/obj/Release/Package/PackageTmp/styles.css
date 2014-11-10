@@ -1,0 +1,17 @@
+﻿body {
+}
+#mapDiv {
+    position:absolute;
+    z-index:-1;
+    top:0px;
+    height:100%;
+    width:100%;
+}
+#infoPanel{
+    position:absolute;
+    bottom:0px;
+    left:20px;
+    height:auto;
+    width:auto;
+    display:none;
+}

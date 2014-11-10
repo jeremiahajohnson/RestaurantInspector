@@ -1,0 +1,6 @@
+F:\GitHub\TPWD\TPWD\TPWD\bin\TPWD.dll.config
+F:\GitHub\TPWD\TPWD\TPWD\bin\TPWD.dll
+F:\GitHub\TPWD\TPWD\TPWD\bin\TPWD.pdb
+F:\GitHub\TPWD\TPWD\TPWD\obj\Release\TPWD.csprojResolveAssemblyReference.cache
+F:\GitHub\TPWD\TPWD\TPWD\obj\Release\TPWD.dll
+F:\GitHub\TPWD\TPWD\TPWD\obj\Release\TPWD.pdb

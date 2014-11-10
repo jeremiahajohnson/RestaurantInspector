@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TPWD</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <!-- ESRI CSS -->
+    <link rel="stylesheet" href="//js.arcgis.com/3.11/esri/css/esri.css" />
+    <link rel="stylesheet" href="//js.arcgis.com/3.11/dijit/themes/claro/claro.css" />
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="http://www.tpwd.state.tx.us/++theme++tpwd.theme/images/global/tpwd-logo-large.gif" style="height:40px; margin-top:-10px; margin-right:10px;"/>Restaurant Inspection Viewer</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basemap <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#" id="streets" class="basemapselect">Streets</a></li>
+                            <li><a href="#" id="satellite" class="basemapselect">Satellite</a></li>
+                            <li><a href="#" id="hybrid" class="basemapselect">Hybrid</a></li>
+                            <li><a href="#" id="topo" class="basemapselect">Topo</a></li>
+                            <li><a href="#" id="gray" class="basemapselect">Gray</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="mapDiv"></div>
+
+    <!-- Info panel -->
+    <div class="panel panel-default" id="infoPanel">
+        <div class="panel-heading">
+            <h3 class="panel-title"><span id="infoTitle"></span><button id="closeInfo" type="button" class="close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button></h3>
+        </div>
+        <div class="panel-body" id="infoBody">
+            Panel content
+        </div>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//js.arcgis.com/3.11compact"></script>
+    <script src="javascript.js" type="text/javascript"></script>
+</body>
+</html>
