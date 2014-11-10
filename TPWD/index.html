@@ -28,7 +28,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="http://www.tpwd.state.tx.us/++theme++tpwd.theme/images/global/tpwd-logo-large.gif" style="height:40px; margin-top:-10px; margin-right:10px;"/>Restaurant Inspection Viewer</a>
+                <a class="navbar-brand" href="#">Restaurant Inspection Viewer<small><i> Beta</i></small></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,6 +37,18 @@
                     
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Query by Grade <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#" id="A" class="query">A</a></li>
+                            <li><a href="#" id="B" class="query">B</a></li>
+                            <li><a href="#" id="C" class="query">C</a></li>
+                            <li><a href="#" id="D" class="query">D</a></li>
+                            <li><a href="#" id="F" class="query">F</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" id="showQueryTable">Show Queried Rows</a></li>
+                    <li><a href="#" id="showTable">Show All Rows</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basemap <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -63,6 +75,40 @@
             Panel content
         </div>
     </div>
+
+    <!-- View table modal -->
+    <div class="modal fade" id="attrTable">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Attribute Table</h4>
+                </div>
+                <div class="modal-body" id="attrBody">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- View table modal -->
+    <div class="modal fade" id="selectTable">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Attribute Table</h4>
+                </div>
+                <div class="modal-body" id="selectBody">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>

@@ -4,3 +4,9 @@ F:\GitHub\TPWD\TPWD\TPWD\bin\TPWD.pdb
 F:\GitHub\TPWD\TPWD\TPWD\obj\Debug\TPWD.csprojResolveAssemblyReference.cache
 F:\GitHub\TPWD\TPWD\TPWD\obj\Debug\TPWD.dll
 F:\GitHub\TPWD\TPWD\TPWD\obj\Debug\TPWD.pdb
+E:\git\RestaurantInspector\TPWD\bin\TPWD.dll.config
+E:\git\RestaurantInspector\TPWD\bin\TPWD.dll
+E:\git\RestaurantInspector\TPWD\bin\TPWD.pdb
+E:\git\RestaurantInspector\TPWD\obj\Debug\TPWD.csprojResolveAssemblyReference.cache
+E:\git\RestaurantInspector\TPWD\obj\Debug\TPWD.dll
+E:\git\RestaurantInspector\TPWD\obj\Debug\TPWD.pdb
