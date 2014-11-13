@@ -141,6 +141,7 @@
     on(dojoQuery(".query"), 'click', function () { queryFeatures(this.id); });
     on(dom.byId('showTable'), 'click', function () { $("#attrTable").modal(); });
     on(dom.byId('showQueryTable'), 'click', function () { $("#selectTable").modal(); });
+    on(dom.byId('showLegend'), 'click', function () { $("#legend").modal(); });
 
     function drawinfowindow(evt,attributes) {
         map.graphics.clear();
